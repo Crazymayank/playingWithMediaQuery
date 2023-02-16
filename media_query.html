@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        html{
+            font-size: 1em;
+        }
+
+        /* @media screen and (max-width: 600px) {
+            body{
+                color: red;
+            }
+            
+        } */
+        /* @media (orientation: landscape) {
+            body{
+                color: blue;
+            }
+            
+        } */
+        /* @media screen and (max-width: 600px) and (orientation: landscape) {
+            body{
+                color: darkorange;
+            }   
+        } */
+
+        /* @media  screen and(max-width: 600px),
+        screen and (orientation: landscape){
+            body{
+                color: blue;
+            }
+            
+        }  */
+
+        @media not all and (orientation: landscape){
+            body{
+                color: blue;
+            }
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam quam itaque, soluta repudiandae quae hic voluptas reiciendis eius nemo, suscipit sit quisquam maiores eaque? Ad rerum natus asperiores nihil?</p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo odio quidem obcaecati fugit voluptatibus iusto iure saepe eligendi, earum dicta incidunt fugiat debitis vitae nulla temporibus qui dolorem repudiandae quis soluta vel? Veniam hic exercitationem quis optio sequi vero impedit, ut libero dolore incidunt vel asperiores ducimus placeat voluptates a</p>
+    
+</body>
+</html>
